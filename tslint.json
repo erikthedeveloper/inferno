@@ -2,15 +2,17 @@
 	"extends": "tslint:latest",
 	"rules": {
 		"quotemark": [
-			"single"
+			true,
+			"single",
+			"jsx-double"
 		],
 		"forin": false,
 		"no-empty": false,
 		"indent": [
 			"tabs"
 		],
-		"trailing-comma": false,
-		"ordered-imports": false,
+		"trailing-comma": [false],
+		"ordered-imports": [false],
 		"no-namespace": false,
 		"variable-name": [
 			false
@@ -23,11 +25,11 @@
 		"max-line-length": [
 			false
 		],
-		"only-arrow-functions": false,
+		"only-arrow-functions": [false],
 		"member-access": [
 			false
 		],
-		"one-variable-per-declaration": false,
+		"one-variable-per-declaration": [false],
 		"no-unused-expression": false,
 		"no-bitwise": false,
 		"prefer-for-of": false
